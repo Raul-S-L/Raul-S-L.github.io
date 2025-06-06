@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de películas, directores y guionistas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            text-align: center;
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border: 2px solid #000;
+        }
+        
+        th, td {
+            border: 2px solid #000;
+            padding: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .pelicula-header {
+            background-color: #ffff00;
+            color: black;
+        }
+        
+        .director-header {
+            background-color: #666666;
+            color: white;
+        }
+        
+        .guionista-header {
+            background-color: #ff0000;
+            color: white;
+        }
+        
+        .pelicula-cell {
+            background-color: #ffff00;
+            color: black;
+            text-align: left;
+            padding-left: 10px;
+        }
+        
+        .director-cell {
+            background-color: #666666;
+            color: white;
+        }
+        
+        .guionista-cell {
+            background-color: #ff0000;
+            color: white;
+        }
+        
+        .pelicula-img {
+            width: 30px;
+            height: 40px;
+            margin-right: 10px;
+            vertical-align: middle;
+            background-color: #333;
+            display: inline-block;
+        }
+        
+        .movie-poster-1 {
+            background: linear-gradient(45deg, #ff6b00, #ff8c00);
+        }
+        
+        .movie-poster-2 {
+            background: linear-gradient(45deg, #4a4a4a, #666);
+        }
+        
+        .movie-poster-3 {
+            background: linear-gradient(45deg, #8b4513, #a0522d);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tabla de películas, directores y guionistas</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th class="pelicula-header">Películas</th>
+                    <th class="director-header">Directores</th>
+                    <th class="guionista-header">Guionistas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="pelicula-cell">
+                        <div class="pelicula-img movie-poster-1"></div>
+                        Los otros
+                    </td>
+                    <td class="director-cell">Alejandro Amenábar</td>
+                    <td class="guionista-cell"></td>
+                </tr>
+                <tr>
+                    <td class="pelicula-cell">
+                        <div class="pelicula-img movie-poster-2"></div>
+                        Abre los ojos
+                    </td>
+                    <td class="director-cell">Alejandro Amenábar</td>
+                    <td class="guionista-cell">Mateo Gil</td>
+                </tr>
+                <tr>
+                    <td class="pelicula-cell">
+                        <div class="pelicula-img movie-poster-3"></div>
+                        Los pájaros
+                    </td>
+                    <td class="director-cell">Alfred Hitchcock</td>
+                    <td class="guionista-cell">Evan Hunter</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Tabla de películas, directores y guionistas</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th class="pelicula-header">Películas</th>
+                    <th class="director-header">Directores</th>
+                    <th class="guionista-header">Guionistas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="pelicula-cell">
+                        <div class="pelicula-img movie-poster-1"></div>
+                        Los otros
+                    </td>
+                    <td class="director-cell">Alejandro Amenábar</td>
+                    <td class="guionista-cell">Alejandro Amenábar</td>
+                </tr>
+                <tr>
+                    <td class="pelicula-cell">
+                        <div class="pelicula-img movie-poster-2"></div>
+                        Abre los ojos
+                    </td>
+                    <td class="director-cell">Alejandro Amenábar</td>
+                    <td class="guionista-cell">Mateo Gil</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
